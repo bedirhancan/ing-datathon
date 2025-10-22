@@ -2,7 +2,7 @@
 
 Bu repo, ING Hubs Türkiye Datathon için hazırlanmış bir churn tahmin projesinin çalışma dizinidir. Amaç, müşterilerin referans tarihinden sonraki 6 aylık dönemde churn (erime) olasılıklarını tahmin etmektir.
 
-Not: Veri dosyaları (ör. `data/*.csv`) telif/ gizlilik / yarışma kuralları gereği repoya dahil edilmemiştir — README'de veri şeması ve nasıl kullanılacağı açıklanmıştır.
+Not: Veri dosyaları (ör. `data/*.csv`) gizlilik / yarışma kuralları gereği repoya dahil edilmemiştir — README'de veri şeması ve nasıl kullanılacağı açıklanmıştır.
 
 ## Kısa Özet
 - Problem: Müşterilerin 6 aylık dönemde churn olasılıklarını tahmin etmek.
@@ -83,14 +83,3 @@ Bazı notebook hücreleri `metrik.py` içindeki `ing_hubs_datathon_metric` fonks
 ## Repro ve Notlar
 - `requirements.txt` içinde temel paketler listelenmiştir. Ortamı kurduktan sonra notebook hücrelerini sırayla çalıştırın.
 - Hiperparam aramaları büyük veri üzerinde çok zaman alır — önce küçük örnekleme ile ön arama yapın.
-
-## Nasıl katkıda bulunulur
-1. Fork yapın, branch açın.
-2. Küçük, hedefe yönelik PR'lar gönderin (ör. yeni feature, metric wrapper, hız optimizasyonu).
-
-## Lisans ve İletişim
-- Lisans: Projeyi kullanmadan önce organizasyonun paylaşım/licensing kurallarını kontrol edin.
-- İletişim: Proje sahibinin e-posta adresi/Slack bilgisi buraya eklenebilir.
-
----
-Bu README ağırlıklı olarak proje kullanımını ve yarışma gereksinimlerini toparlamaktadır. İsterseniz README'ye örnek komutlar, görseller veya notebook çıktılarından kısa bir sonuç bölümü (ör. baseline skorları) ekleyebilirim.
